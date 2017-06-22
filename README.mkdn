@@ -1,0 +1,17 @@
+#AwesomeChartJS
+
+AwesomeChartJS is a small JavaScript chart rendering library based on the HTML 5 canvas.
+
+
+##Effect
+食堂出口人口流量信息前端展示
+
+##License
+
+Copyright (c) 2017 MrPeach07 <lizhiyu_9709@163.com>
+
+
+
+##Contributors
+[MrPeach07]https://github.com/MrPeach07/canteen_info_display
+

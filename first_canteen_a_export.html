@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一食堂A出口人口流量信息</title>
+
+    <script type="application/javascript" src="awesomechart.js"></script>
+
+    <script type="application/javascript">
+        function drawMyChart(){
+            if(!!document.createElement('canvas').getContext){ //check that the canvas
+                // element is supported
+                var mychart = new AwesomeChart('canvas1');
+                mychart.title = "一食堂A出口人口流量情况";
+                mychart.data = [20, 50, 80, 18, 10, 6, 5, 28, 118, 88, 38, 20];
+                mychart.labels = ["10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "16:30", "17:00", "17：30", "18:00", "18:30"];
+                mychart.draw();
+            }A
+        }
+
+        window.onload = drawMyChart;
+    </script>
+</head>
+<body>
+<canvas id="canvas1" width="800" height="600">
+    Your web-browser does not support the HTML 5 canvas element.
+</canvas>
+
+</body>
+</html>
